@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles-my-dashboard.css">
+    <link rel="stylesheet" href="styles-checkout.css">
     <link rel="stylesheet" href="styles-about-us.css">
 
     <meta charset="utf-8">
@@ -64,90 +64,153 @@
         </div>
     </header>
     <section>
-        <div class="my-dashboard">
+        <div class="checkout-background">
             <div class="content">
-                <div class="my-dashboard-2">
-                    <div>
-                        <div>
-                            <h1 class="title">My Dashboard</h1>
-                        </div>
-                        <ul class="background-list-my-dashboard">
-                            <li class="item-my-dashboard-solo">Account Information</li>
-                            <li class="item-my-dashboard">Address Book</li>
-                            <li class="item-my-dashboard">My Orders</li>
-                            <li class="border-my-dashboard"></li>
-                            <li class="item-my-dashboard">My Downloadable Products</li>
-                            <li class="item-my-dashboard">Stored Payment Methods</li>
-                            <li class="item-my-dashboard">Billing Agrements</li>
-                            <li class="border-my-dashboard"></li>
-                            <li class="item-my-dashboard">My Product Reviews</li>
-                            <li class="item-my-dashboard">Newsletter Subscriptions</li>
-                        </ul>
-                        <div class="background-list-my-dashboard-2">
-                            <h3 class="title-small-my-dashboard-1">Compare Products</h3>
-                            <p class="paragraph-small-my-dashboard-2">You have no items to compare.</p>
-                        </div>
-                        <div class="background-list-my-dashboard-2">
-                            <h3 class="title-small-my-dashboard-1">My Wish List</h3>
-                            <p class="paragraph-small-my-dashboard-2">You have no items in your wish list.</p>
-                        </div>
+
+
+                <div class="group-checkout-1">
+                    <div class="group-checkout-2">
+                        <h1 class="title-checkout">Checkout</h1>
+                        <button class="cta-checkout">Checkout</button>
                     </div>
-                    <diV>
-                        <div class="group-address-my-dashboard-1">
-                            <h4 class="title-e">Account Information</h4>
-                            <div class="border-my-dashboard-1"></div>
-                            <div class="group-address-my-dashboard-2">
-
-                                <div class="group-edit">
-                                    <h4 class=" title-e-1 ">Contact Information</h4>
-                                    <p class="paragraph-e-1 ">Alex Driver ExampeAdress@gmail.com
-                                    </p>
-                                    <div class="group-edit-e">
-                                        <span class="edit-e">Edit</span>
-                                        <span class="edit-e">Change Password</span>
-                                    </div>
-                                </div>
-                                <div class="group-edit">
-                                    <h4 class="title-e-1">Newsletters</h4>
-                                    <p class="paragraph-e-1 ">You don't subscribe to our newsletter.
-                                    </p>
-                                    <div class="edit-e">
-                                        <span>Edit</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
+                    <div class="group-checbox-3">
+                        <div>
+                            <img src="images/checbox-2.png">
                         </div>
                         <div>
-                            <h4 class="title-e">Address Book</h4>
-                            <div class="border-my-dashboard-1"></div>
-                            <div class="group-address-my-dashboard-2">
-
-                                <div class="group-edit">
-                                    <h4 class=" title-e-1">Default Billing Address</h4>
-                                    <p class="paragraph-e-1 ">You have not set a default billing address.
-                                    </p>
-                                    <div class="group-edit-e">
-                                        <span class="edit-e">Edit Address</span>
-                                    </div>
-                                </div>
-                                <div class="group-edit">
-                                    <h4 class="title-e-1">Default Shipping Address</h4>
-                                    <p class="paragraph-e-1 ">You have not set a default shipping address.
-                                    </p>
-                                    <div class="edit-e">
-                                        <span>Edit Address</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
+                            <img src="images/checbox-1.png">
                         </div>
                     </div>
-
                 </div>
+                <div class="box-checkout-1">
+                    <div>
+                        <h4 class="title-small">Shipping Address</h4>
+                        <div class="border-checkout"></div>
+                        <label>
+                            <h6 class="email-address-checkout">Email Address<span class="star">*</span></h6>
+                            <input class="input-checkout-1" type="email">
+                        </label>
+                        <p class="paragraph-checkout-1">You can create an account after checkout.</p>
+                        <div class="border-checkout"></div>
+                        <label>
+                            <h6 class="email-address-checkout">First Name<span class="star">*</span></h6>
+                            <input class="input-checkout-1" type="name">
+                        </label>
+                        <label>
+                            <h6 class="email-address-checkout">Last Name<span class="star">*</span></h6>
+                            <input class="input-checkout-1" type="name">
+                        </label>
+                        <label>
+                            <h6 class="email-address-checkout">Company<span class="star">*</span></h6>
+                            <input class="input-checkout-1" type="email">
+                        </label>
+                        <label>
+                            <h6 class="email-address-checkout">Street Address<span class="star">*</span></h6>
+                            <input class="input-checkout-1" type="email">
+                        </label>
+                        <div class="input-checkout-empty"><input class="input-checkout-1" type="text"></div>
+                        <label>
+                            <h6 class="email-address-checkout">City <span class="star">*</span></h6>
+                            <input class="input-checkout-1" type="email">
+                        </label>
+                        <div>
+                            <h6 class="email-address-checkout">State/Province <span class="star">*</span></h6>
+                            <select class="group-select-checkout" name="Please, select a region, state or province">
+                                <option class="select-checkout" value="">Please, select a region, state or province
+                                </option>
+                                <option class="select-checkout" value="use">use</option>
+                                <option class="select-checkout" value="london">london</option>
+                                <option class="select-checkout" value="paris">paris</option>
+                            </select>
+                        </div>
+                        <label>
+                            <h6 class="email-address-checkout">Zip/Postal Code <span class="star">*</span></h6>
+                            <input class="input-checkout-1" type="text">
+                        </label>
+                        <div>
+                            <h6 class="email-address-checkout">Country <span class="star">*</span></h6>
+                            <select class="group-select-checkout" name="United States">
+                                <option class="select-checkout" value="">United States</option>
+                                <option class="select-checkout" value="use">use</option>
+                                <option class="select-checkout" value="london">london</option>
+                                <option class="select-checkout" value="paris">paris</option>
+                            </select>
+                        </div>
+                        <label>
+                            <h6 class="email-address-checkout">Phone Number <span class="star">*</span></h6>
+                            <input class="input-checkout-1" type="text">
+                        </label>
+                        <div class="box-border-checkout">
+                            <div class="border-checkout"></div>
+                        </div>
+                        <div>
+                            <h6 class="email-address-checkout">Standard Rate</h6>
+                            <label class="box-input-checkbox-checkout-p">
+                                <input class="input-checkbox-checkout" type="radio" checked>
+                                <div class="prices-checkout-2">
+                                    <div>
+                                        <p class="paragraph-checkout-2">Price may vary depending on the
+                                            item/destination. Shop Staff will contact you. $21.00</p>
+                                    </div>
+                                    <div>
+                                        <span class="price-checkout"> $21.00</span>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div>
+                            <h6 class="email-address-checkout">Pickup from store</h6>
+                            <label class="box-input-checkbox-checkout-p">
+                                <input class="input-checkbox-checkout" type="radio">
+                                <div class="prices-checkout-3">
+                                    <div>
+                                        <p class="paragraph-checkout-2">1234 Street Adress City Address, 1234</p>
+                                    </div>
+                                    <div>
+                                        <span class="price-checkout"> $21.00</span>
+                                    </div>
+                                </div>
+                            </label>
+                            <div>
+                                <button class="cta-checkout-2">Next</button>
+                            </div>
+                        </div>
 
+                    </div>
+
+                    <div class="box-checkout-2">
+                        <h4 class="title-checkout-2">Order Summary</h4>
+                        <div class="border-checkout-2"></div>
+                        <div class="group-items-2-checkout">
+                            <div>
+                                <span class="items-2-checkout">2 Items in Cart</span>
+                            </div>
+                            <div>
+                                <img src="images/arrow-up.png" />
+                            </div>
+                        </div>
+                        <div class="group-checkout-3">
+                            <div class="image-1-a">
+                                <img src="images/image-1-a.png">
+                            </div>
+                            <div>
+                                <p class="paragraph-information-pc-checkout">MSI MEG Trident X 10SD-1012AU Intel i7 10700K, 2070 SUPER...</p>
+                                <div><span class="qty">Qty<spn class="price-1">1</spn><span class="price">$3,799.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group-checkout-4">
+                            <div class="image-1-a">
+                                <img src="images/image-2-a.png">
+                            </div>
+                            <div>
+                                <p class="paragraph-information-pc-checkout">MSI MEG Trident X 10SD-1012AU Intel i7 10700K, 2070 SUPER...</p>
+                                <div><span class="qty">Qty<spn class="price-1">1</spn><span class="price">$3,799.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
