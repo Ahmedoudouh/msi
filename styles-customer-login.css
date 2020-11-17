@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1920px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.border-customer-login {
+    width: 564px;
+    background: #F5F9FF;
+    padding: 35px 55px 40px 55px;
+}
+
+.group-cta-login {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    grid-gap: 25px;
+}
+
+.email-address-login {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 210%;
+    color: #000000;
+    margin: 15px 0 5px 0;
+}
+
+.title-small-login {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.paragraph-small-login {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+    margin: 15px 0 0 0;
+}
+
+.star-login {
+    color: #F5661A;
+}
+
+.input-emai-login {
+    background: #FFFFFF;
+    border: 1px solid #8C8C8C;
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 15px;
+    color: #8C8C8C;
+    padding: 15px 245px 15px 15px;
+}
+
+.cta-login {
+    background: #0156FF;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 15px 55px;
+    border: none;
+}
+
+.paragraph-login {
+    font-size: 14px;
+    line-height: 20px;
+    color: #0156FF;
+}
+
+.group-customer-login {
+    display: flex;
+    justify-content: center;
+    grid-gap: 35px;
+    margin-bottom: 60px;
+}
+
+.list-login {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 20px 0 35px 20px;
+    display: grid;
+    grid-gap: 5px;
+}
+
+.cta-login-Create {
+    background: #0156FF;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 40px 15px 41px;
+}
