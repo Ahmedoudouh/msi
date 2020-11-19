@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1920px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.box-about-product-1 {
+    display: flex;
+    grid-gap: 30px;
+}
+
+.group-about-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px 0;
+}
+
+.box-about-product-2 {
+    display: flex;
+    grid-gap: 15px;
+    align-items: center;
+}
+
+.title-about-product {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    border-bottom: 2px solid #0156FF;
+    border-radius: 5%;
+}
+
+.details {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+}
+
+.price-about-product {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.price-about-product-2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.input-number-about-product {
+    background: #EBEBEB;
+    border-radius: 6px;
+    width: 70px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cta-about-product {
+    background: #0156FF;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 46px;
+}
+
+.cta-about-product-paypal {
+    background: #FFB800;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 46px;
+}
+
+.group-about-product-2 {
+    display: flex;
+    margin-left: 375px;
+}
+
+.home-about-product {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.series {
+    color: #A5A4A4;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.aroow-left {
+    color: #1E8CCF;
+}
+
+.background-about-product-2 {
+    background-color: #FFFFFF;
+}
+
+.background {
+    background-color: cadetblue;
+}
+
+.background-tt {
+    background: #F5F7FF;
+    width: 53%;
+    padding: 65px 120px 0 0;
+}
+
+.group-1 {
+    display: flex;
+}
+
+.box-image-2 {
+    padding: 60px 0;
+}
+
+.group-aroow {
+    display: flex;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.title-about-product-2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 25px 0 15px 0;
+}
+
+.paragraph-about-product {
+    font-size: 12px;
+    line-height: 18px;
+    color: #0156FF;
+}
+
+.paragraph-about-product-2 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 25px 0 45px 0;
+}
+
+.box-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 160px 0;
+}
+
+.question {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.contact-us {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #0156FF;
+    margin-left: 5px;
+}
+
+.code {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.background-oval {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.oval-solo {
+    background: #4B4D4F;
+    transform: rotate(-180deg);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.oval-1 {
+    background: #F2E9DC;
+    transform: rotate(-180deg);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.oval-2 {
+    background: #c3c2c4;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.oval-border {
+    border: 2px solid #0156FF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    width: 45px;
+    height: 45px;
+}
+
+.box-logo-zip {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 0 0 147px;
+}
+
+.paragrapg-zip {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 15px;
+}
+
+.group-loadig {
+    display: flex;
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.loadig-solo {
+    background: #0156FF;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.loadig {
+    background: #0156FF;
+    opacity: 0.3;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.content-2 {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.box-outplay-the-competittion {
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 55px;
+}
+
+.box-2 {
+    display: flex;
+    align-items: center;
+}
+
+.title-outplay-the-competittion {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+}
+
+.paragraph-outplay-the-competittion {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 55px 0 28px 0;
+}
+
+.paragraph-outplay-the-competittion-2 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.group-loadig-2 {
+    display: flex;
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: unset;
+}
+
+.loadig-solo-2 {
+    background: #FFFFFF;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.loadig-3 {
+    background: #FFFFFF;
+    opacity: 0.3;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.box-outplay-the-competittion-2 {
+    margin-left: 110px;
+}
+
+.background-girl {
+    background: linear-gradient(270deg, #F5F7FF 0%, #F5F7FF 66.67%, rgba(240, 242, 241, 0) 100%);
+    position: relative;
+}
+
+.box-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-right {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+    padding: 0 15px;
+    width: 347px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.box-input-2 {
+    display: grid;
+    grid-gap: 20px;
+    position: absolute;
+    left: 25em;
+}
+
+.background-black {
+    background: radial-gradient(50% 50% at 50% 50%, #242528 0%, #040404 100%);
+    color: #ffffff;
+    padding: 75px 0 100px 0;
+}
+
+.box-featues {
+    text-align: center;
+    padding: 0 0 60px 0;
+}
+
+.paragraph-featues {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    width: 30%;
+    margin: 30px 0 0 0;
+}
+
+.paragraph-featues-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.title-featues {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 57px;
+}
+
+.logos {
+    display: flex;
+    column-gap: 45px;
+    text-align: center;
+}
+
+.paragarph-center {
+    display: flex;
+    justify-content: center;
+}
+
+.paragarph-logo {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 30px;
+}
