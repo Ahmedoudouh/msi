@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1920px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.publicity-msi {
+    width: 100%;
+}
+
+.icon-arrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-image {
+    position: relative;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 135px;
+    cursor: pointer;
+}
+
+.arrow-right {
+    position: absolute;
+    right: 2px;
+    top: 135px;
+    cursor: pointer;
+}
+
+.new-products {
+    margin: 37px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.products-2 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: underline;
+}
+
+.border-products {
+    padding: 0 32px 25px 25px;
+    position: relative;
+}
+
+.price-tablette {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+    text-decoration: line-through;
+}
+
+.price-tablette-2 {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.informations-tablette {
+    margin: 5px 0 10px 0;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.group-border-products {
+    display: flex;
+    position: relative;
+}
+
+.icon-arrow-grey {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-right-grey {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    cursor: pointer;
+}
+
+.arrow-left-grey {
+    position: absolute;
+    cursor: pointer;
+    top: 120px;
+    left: 1px;
+}
+
+.box-logo {
+    background: #F5F7FF;
+    margin-bottom: 15px;
+}
+
+.group-paragraph-logo {
+    display: flex;
+    justify-content: center;
+    padding: 21px 0;
+    column-gap: 15px;
+}
+
+.paragrapg-logo {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #272560;
+}
+
+.own {
+    font-weight: 800;
+}
+
+.learn-more {
+    font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box-products {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.small-title {
+    position: absolute;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+    top: 135px;
+    right: 65px;
+}
+
+.paragraph-see-products {
+    position: absolute;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    top: 285px;
+    right: 63px;
+    font-weight: 300;
+}
+
+.msi-series {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.msi-series:hover {
+    border-bottom: 3px solid #0156FF;
+    border-radius: 5%;
+}
+
+.msi-series-2:hover {
+    color: #000000;
+    border-bottom: 3px solid #0156FF;
+    border-radius: 5%;
+}
+
+.msi-series-2 {
+    color: #838383;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.group-msi-series {
+    display: flex;
+    margin: 35px 0 20px 0;
+    column-gap: 25px;
+}
+
+.logos {
+    margin: 65px 0 75px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-pc-gamer {
+    display: flex;
+    grid-gap: 6px;
+    margin: 20px 0 30px 0;
+}
+
+.paragraph-follow {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.paragraph-pc-gamer {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    width: 82%;
+}
+
+.date {
+    font-size: 10px;
+    line-height: 15px;
+    color: #8C8C8C;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.paragraph-pc-gamer-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-set-up {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.paragraph-set-up-center {
+    display: flex;
+    justify-content: center;
+}
+
+.border-paragraph-set-up {
+    border: 1px solid white;
+    width: 229px;
+    padding: 0 25px;
+}
+
+.box-set-up-1 {
+    display: flex;
+    column-gap: 5px;
+}

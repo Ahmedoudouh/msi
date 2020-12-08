@@ -19,6 +19,7 @@ body {
 .content {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 0 24px;
 }
 
 .navigation {
@@ -87,6 +88,7 @@ body {
     display: flex;
     align-items: center;
     grid-gap: 30px;
+    cursor: pointer;
 }
 
 .logo {
@@ -103,6 +105,10 @@ body {
     line-height: 21px;
 }
 
+.item-header:hover {
+    border-bottom: 3px solid #0156FF;
+}
+
 .cta-header {
     font-weight: 600;
     font-size: 14px;
@@ -112,6 +118,7 @@ body {
     border-radius: 50px;
     padding: 8px 25px;
     background: #ffffff;
+    cursor: pointer;
 }
 
 .group-text {
@@ -284,6 +291,7 @@ body {
     border: 0;
     padding: 15px 45px 14px 45px;
     margin-left: 25px;
+    cursor: pointer;
 }
 
 .box-list-footer {
@@ -300,6 +308,10 @@ body {
     display: flex;
     align-items: center;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.item-solo:hover {
+    background: #504D4D;
 }
 
 .list-footer {
@@ -342,4 +354,36 @@ body {
 
 .solo-color {
     color: #52C5FF;
+}
+
+.item-footer:hover {
+    background: #504D4D;
+}
+
+.icon-facebook-footer {
+    cursor: pointer;
+}
+
+.icon-instagram-footer {
+    cursor: pointer;
+}
+
+.icon-paypal-footer {
+    cursor: pointer;
+}
+
+.icon-visa-footer {
+    cursor: pointer;
+}
+
+.icon-logo-5-footer {
+    cursor: pointer;
+}
+
+.icon-descover-footer {
+    cursor: pointer;
+}
+
+.icon-logo-4-footer {
+    cursor: pointer;
 }
