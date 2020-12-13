@@ -240,8 +240,13 @@ body {
 }
 
 .table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.border-logo {
     border: 1px solid #CCCCCC;
-    padding: 20px;
+    padding: 15px;
 }
 
 .paragraph-msi {

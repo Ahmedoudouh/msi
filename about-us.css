@@ -26,6 +26,7 @@ body {
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .icons-header {
@@ -109,6 +110,11 @@ body {
     border-bottom: 3px solid #0156FF;
 }
 
+.image-hover:hover {
+    border: 3px solid #C1DFFD;
+    border-radius: 50%;
+}
+
 .cta-header {
     font-weight: 600;
     font-size: 14px;
@@ -121,10 +127,37 @@ body {
     cursor: pointer;
 }
 
+.cta-header:hover {
+    box-shadow: 0px 0px 3px 2px #92DEFD;
+}
+
 .group-text {
     display: flex;
     justify-content: space-between;
-    margin: 60px 0 0 0;
+}
+
+.box-text {
+    margin: 20px 0 0 0;
+}
+
+.transitions {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.group-transitions {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.arrow-left {
+    color: #0156FF;
+}
+
+.box-transitions {
+    margin-top: 20px;
 }
 
 .title {
@@ -133,7 +166,7 @@ body {
     display: flex;
     align-items: center;
     color: #000000;
-    margin: 60px 0 20px 0;
+    margin: 20px 0 20px 0;
 }
 
 .paragraph-terms-conditions {
@@ -186,6 +219,7 @@ body {
     width: 327px;
     height: 332px;
     padding: 25px;
+    margin-top: 135px;
 }
 
 .general {
@@ -281,6 +315,11 @@ body {
     font-weight: 300;
 }
 
+.input-footer:focus {
+    border: 2px solid#257CD3;
+    box-shadow: 0px 0px 3px 2px #92DEFD;
+}
+
 .cta-footer {
     background: #0156FF;
     border-radius: 50px;
@@ -292,6 +331,10 @@ body {
     padding: 15px 45px 14px 45px;
     margin-left: 25px;
     cursor: pointer;
+}
+
+.cta-footer:hover {
+    box-shadow: 0px 0px 3px 2px #92DEFD;
 }
 
 .box-list-footer {

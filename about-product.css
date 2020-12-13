@@ -45,6 +45,11 @@ body {
     color: #666666;
 }
 
+.details:hover {
+    border-bottom: 2px solid #0156FF;
+    border-radius: 5%;
+}
+
 .price-about-product {
     font-size: 14px;
     line-height: 21px;
@@ -75,6 +80,15 @@ body {
     color: #FFFFFF;
     border: none;
     padding: 15px 46px;
+    cursor: pointer;
+}
+
+.cta-about-product:hover {
+    box-shadow: 0px 0px 3px 5px #C8C4C4;
+}
+
+.cta-about-product-paypal:hover {
+    box-shadow: 0px 0px 3px 5px #C8C4C4;
 }
 
 .cta-about-product-paypal {
@@ -82,6 +96,7 @@ body {
     border-radius: 50px;
     border: none;
     padding: 15px 46px;
+    cursor: pointer;
 }
 
 .group-about-product-2 {
@@ -163,14 +178,6 @@ body {
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
-}
-
-.contact-us {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    color: #0156FF;
-    margin-left: 5px;
 }
 
 .code {
