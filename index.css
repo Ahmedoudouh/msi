@@ -58,7 +58,7 @@ body {
 }
 
 .border-products {
-    padding: 0 32px 25px 25px;
+    padding: 25px;
     position: relative;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .informations-tablette {
-    margin: 5px 0 10px 0;
+    margin: 5px 53px 10px 0;
     font-size: 13px;
     line-height: 19px;
 }

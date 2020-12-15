@@ -45,6 +45,7 @@ body {
 .box-shopping-cart-1 {
     display: flex;
     justify-content: space-between;
+    column-gap: 35px;
 }
 
 .border-shopping {
@@ -162,6 +163,12 @@ body {
     margin-right: 35px;
 }
 
+.paragraph-small-shopping-cart-3 {
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
 .group-shopping-cart {
     background: #FFFFFF;
     border: 1px solid #8C8C8C;
@@ -178,7 +185,7 @@ body {
     Width: 386px;
     Height: 50px;
     background: #FFFFFF;
-    border: 1px solid #8C8C8C;
+    border: 1px solid #CCCCCC;
     border-radius: 4px;
     padding-left: 15px;
 }
@@ -208,10 +215,9 @@ body {
     padding: 10px 0;
 }
 
-.paragraph-small-shopping-cart-2 {
+.paragraph-small-shopping-cart-3 {
     font-size: 18px;
     line-height: 27px;
-    margin-top: 30px;
 }
 
 .enter-discount-code {
@@ -241,6 +247,7 @@ body {
 
 .border-shopping-2 {
     border: 1px solid #CCCCCC;
+    margin-bottom: 5px;
 }
 
 .group-price-3 {
@@ -308,6 +315,7 @@ body {
     color: #272560;
     grid-gap: 10px;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .own {
