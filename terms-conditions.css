@@ -32,6 +32,7 @@ body {
 .icons-header {
     display: flex;
     grid-gap: 13px;
+    align-items: center;
 }
 
 .time {
@@ -54,7 +55,7 @@ body {
 
 .contact-us {
     color: #FFFFFF;
-    border-bottom: 2px solid #FFFFFF;
+    text-decoration: underline;
     border-radius: 5%;
     font-weight: 600;
     font-size: 12px;

@@ -55,10 +55,15 @@ body {
     font-size: 13px;
     line-height: 15px;
     text-decoration: underline;
+    color: #000000;
+}
+
+a:link {
+    color: #000000;
 }
 
 .border-products {
-    padding: 25px;
+    padding: 8px 25px 0 25px;
     position: relative;
 }
 
@@ -76,7 +81,7 @@ body {
 }
 
 .informations-tablette {
-    margin: 5px 53px 10px 0;
+    margin: 5px 10px 10px 0;
     font-size: 13px;
     line-height: 19px;
 }
@@ -107,7 +112,7 @@ body {
 
 .box-logo {
     background: #F5F7FF;
-    margin-bottom: 15px;
+    margin: 25px 0 15px 0;
 }
 
 .group-paragraph-logo {
@@ -220,12 +225,18 @@ body {
     width: 82%;
 }
 
-.date {
+.date-2 {
     font-size: 10px;
     line-height: 15px;
     color: #8C8C8C;
     text-align: center;
     margin-top: 10px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .paragraph-pc-gamer-2 {
@@ -253,4 +264,12 @@ body {
 .box-set-up-1 {
     display: flex;
     column-gap: 5px;
+    margin-bottom: 67px;
+}
+
+.am {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
 }

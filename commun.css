@@ -32,6 +32,7 @@
         .icons-header {
             display: flex;
             grid-gap: 13px;
+            align-items: center;
         }
         
         .time {
@@ -43,6 +44,8 @@
             font-size: 12px;
             line-height: 18px;
             align-items: center;
+            display: flex;
+            column-gap: 10px;
         }
         
         .paragraph-header {
@@ -54,7 +57,7 @@
         
         .contact-us {
             color: #FFFFFF;
-            border-bottom: 2px solid #FFFFFF;
+            text-decoration: underline;
             border-radius: 5%;
             font-weight: 600;
             font-size: 12px;
@@ -207,10 +210,15 @@
             background: #000000;
             border: 2px solid #FFFFFF;
             border-radius: 4px;
-            padding: 15px 175px 15px 5px;
+            padding: 15px 0 15px 10px;
             color: #FFFFFF;
             font-size: 14px;
             font-weight: 300;
+            width: 391px;
+        }
+        
+         ::placeholder {
+            color: #FFFFFF;
         }
         
         .input-footer:focus {
@@ -301,6 +309,10 @@
             background: #504D4D;
         }
         
+        .link-color a:link {
+            color: #FFFFFF;
+        }
+        
         .icon-facebook-footer {
             cursor: pointer;
         }
@@ -357,7 +369,6 @@
         
         .border-x:hover {
             border-radius: 20px;
-            border: 2px solid #92C8FD;
         }
         
         .box-x-1 {
@@ -520,4 +531,8 @@
             line-height: 20px;
             color: #000000;
             margin-left: 10px;
+        }
+        
+        .a:link {
+            color: #FFFFFF;
         }
