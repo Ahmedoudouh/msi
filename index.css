@@ -78,12 +78,14 @@ a:link {
     font-size: 17px;
     line-height: 25px;
     font-weight: 600;
+    color: #000000;
 }
 
 .informations-tablette {
     margin: 5px 10px 10px 0;
     font-size: 13px;
     line-height: 19px;
+    color: #000000;
 }
 
 .group-border-products {
@@ -272,4 +274,8 @@ a:link {
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
+}
+
+.color {
+    color: #000000;
 }
