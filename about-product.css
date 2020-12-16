@@ -104,6 +104,10 @@ body {
     margin-left: 150px;
 }
 
+.link-2:visited {
+    color: #0156FF;
+}
+
 .group-center {
     display: flex;
 }

@@ -306,6 +306,10 @@ body {
     border: 2px solid #8C8C8C;
 }
 
+.link:visited {
+    color: #666666;
+}
+
 .group-logo-zip {
     font-weight: 600;
     font-size: 11px;
