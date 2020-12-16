@@ -101,7 +101,7 @@ body {
 
 .group-about-product-2 {
     display: flex;
-    margin-left: 375px;
+    margin-left: 150px;
 }
 
 .group-center {
@@ -133,8 +133,8 @@ body {
 
 .background-tt {
     background: #F5F7FF;
-    width: 53%;
-    padding: 65px 120px 0 0;
+    width: 57%;
+    padding: 56px 115px 0 0;
 }
 
 .group-1 {
