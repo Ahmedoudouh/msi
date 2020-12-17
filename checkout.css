@@ -52,6 +52,10 @@ body {
     padding: 13px 65px;
 }
 
+.cta-checkout:hover {
+    box-shadow: 0px 0px 3px 2px #92DEFD;
+}
+
 .title-small {
     font-weight: 600;
     font-size: 18px;
@@ -162,6 +166,11 @@ body {
     padding: 13px 95px;
     border: 0;
     margin-top: 35px;
+    cursor: pointer;
+}
+
+.cta-checkout-2:hover {
+    box-shadow: 0px 0px 3px 2px #92DEFD;
 }
 
 .title-checkout-2 {
