@@ -63,8 +63,8 @@ a:link {
 }
 
 .border-products {
-    padding: 8px 25px 0 25px;
     position: relative;
+    padding: 5px 25px 0;
 }
 
 .price-tablette {
@@ -82,7 +82,7 @@ a:link {
 }
 
 .informations-tablette {
-    margin: 5px 10px 10px 0;
+    margin: 5px 2px 10px 0;
     font-size: 13px;
     line-height: 19px;
     color: #000000;
@@ -91,6 +91,7 @@ a:link {
 .group-border-products {
     display: flex;
     position: relative;
+    margin-bottom: 40px;
 }
 
 .icon-arrow-grey {
@@ -278,4 +279,9 @@ a:link {
 
 .color {
     color: #000000;
+}
+
+.image-products {
+    display: flex;
+    justify-content: center;
 }

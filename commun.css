@@ -542,3 +542,7 @@
         a:link {
             text-decoration: none;
         }
+        
+        .icon-arrow-wihte {
+            display: flex;
+        }
