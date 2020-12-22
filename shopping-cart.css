@@ -96,7 +96,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    margin-right: 83px;
+    margin-right: 45px;
 }
 
 .group-price-2 {
@@ -107,6 +107,7 @@ body {
 
 .icon {
     margin-bottom: 6px;
+    cursor: pointer;
 }
 
 .group-cta-shopping-cart {
@@ -123,9 +124,13 @@ body {
     border: 2px solid #666666;
     border-radius: 50px;
     padding: 5px 30px;
-    margin-right: 7px;
     background: transparent;
     cursor: pointer;
+}
+
+.cta-shopping-cart-1:hover {
+    background: #000000;
+    color: #FFFFFF;
 }
 
 .cta-shopping-cart {
@@ -136,8 +141,12 @@ body {
     line-height: 21px;
     color: #FFFFFF;
     padding: 5px 30px;
-    margin-right: 35px;
     cursor: pointer;
+}
+
+.cta-shopping-cart:hover {
+    background: transparent;
+    color: #666666;
 }
 
 .group-arrow-shopping-cart {
@@ -243,9 +252,13 @@ body {
     border: 2px solid #0156FF;
     box-sizing: border-box;
     border-radius: 50px;
-    background: #F5F7FF;
+    background: transparent;
     padding: 11px 130px;
     cursor: pointer;
+}
+
+.cta-shopping-cart-2:hover {
+    box-shadow: 0px 0px 3px 2px #92DEFD;
 }
 
 .border-shopping-2 {
@@ -257,6 +270,10 @@ body {
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
+}
+
+.group-price-3:hover {
+    background-color: #D6EBFF;
 }
 
 .paragraph-price {
@@ -285,6 +302,10 @@ body {
     cursor: pointer;
 }
 
+.cta-shopping-cart-3:hover {
+    box-shadow: 0px 0px 3px 2px#399BFC;
+}
+
 .cta-shopping-cart-4 {
     font-weight: 700;
     font-size: 14px;
@@ -301,6 +322,10 @@ body {
     cursor: pointer;
 }
 
+.cta-shopping-cart-4:hover {
+    box-shadow: 0px 0px 3px 2px#0469CF;
+}
+
 .cta-shopping-cart-5 {
     font-weight: 600;
     font-size: 14px;
@@ -310,6 +335,10 @@ body {
     padding: 14px 61px;
     border: 2px solid #8C8C8C;
     cursor: pointer;
+}
+
+.cta-shopping-cart-5:hover {
+    box-shadow: 0px 0px 3px 2px#399BFC;
 }
 
 .link:visited {
@@ -331,4 +360,9 @@ body {
 .own {
     color: #272560;
     font-weight: 800;
+}
+
+.box-cta-shopping-cart {
+    display: flex;
+    grid-column-gap: 7px;
 }

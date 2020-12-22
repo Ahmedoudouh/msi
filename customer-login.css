@@ -14,14 +14,14 @@ body {
 .border-customer-login {
     width: 564px;
     background: #F5F9FF;
-    padding: 35px 55px 40px 55px;
+    padding: 37px 60px 40px 57px;
 }
 
 .group-cta-login {
     display: flex;
     align-items: center;
     margin-top: 30px;
-    grid-gap: 25px;
+    grid-gap: 23px;
 }
 
 .email-address-login {
@@ -60,7 +60,8 @@ body {
     line-height: 20px;
     padding-left: 15px;
     color: #8C8C8C;
-    padding: 15px 245px 15px 15px;
+    padding: 15px 0 15px 15px;
+    width: 449px;
 }
 
 .cta-login {
@@ -107,4 +108,8 @@ body {
     border: none;
     padding: 15px 40px 15px 41px;
     cursor: pointer;
+}
+
+.cta-login-Create:hover {
+    box-shadow: 0px 0px 3px 2px #0168CE;
 }

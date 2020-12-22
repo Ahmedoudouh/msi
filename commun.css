@@ -215,6 +215,7 @@
             font-size: 14px;
             font-weight: 300;
             width: 391px;
+            outline: none;
         }
         
          ::placeholder {
@@ -486,7 +487,14 @@
             line-height: 20px;
             padding-left: 15px;
             color: #8C8C8C;
-            padding: 15px 245px 15px 15px;
+            padding: 15px 0 15px 15px;
+            width: 449px;
+            outline: none;
+        }
+        
+        .input-emai-login:focus {
+            border-color: #54A7FA;
+            box-shadow: 0px 0px 3px 2px #0168CE;
         }
         
         .cta-login {
@@ -499,6 +507,10 @@
             padding: 15px 55px;
             border: none;
             cursor: pointer;
+        }
+        
+        .cta-login:hover {
+            box-shadow: 0px 0px 3px 2px #0168CE;
         }
         
         .star-login {
@@ -545,4 +557,16 @@
         
         .icon-arrow-wihte {
             display: flex;
+        }
+        
+        .color:visited {
+            color: #000000;
+        }
+        
+        .center {
+            display: flex;
+        }
+        
+        .color-wihte:visited {
+            color: #FFFFFF;
         }

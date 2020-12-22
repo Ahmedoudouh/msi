@@ -135,6 +135,7 @@ body {
 .group-text {
     display: flex;
     justify-content: space-between;
+    column-gap: 30px;
 }
 
 .box-text {
@@ -190,7 +191,7 @@ body {
     line-height: 32px;
     align-items: center;
     color: #000000;
-    margin-bottom: 40px;
+    margin-bottom: 74px;
 }
 
 .paragraph-solo {
@@ -205,8 +206,12 @@ body {
 }
 
 .item {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 18px;
+}
+
+.item:hover {
+    background: #E8E9EA;
 }
 
 .list-items {
@@ -218,7 +223,7 @@ body {
 .border-group-items {
     background: #F5F9FF;
     width: 327px;
-    height: 332px;
+    height: fit-content;
     padding: 25px;
     margin-top: 135px;
 }
@@ -430,4 +435,8 @@ body {
 
 .icon-logo-4-footer {
     cursor: pointer;
+}
+
+.color:visited {
+    color: #000000;
 }

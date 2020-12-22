@@ -31,13 +31,14 @@ body {
 .border-login {
     width: 411px;
     background: #F5F9FF;
-    padding: 10px 75px 75px 30px;
+    padding: 10px 17px 75px 35px;
     height: fit-content;
 }
 
 .group-login {
     display: flex;
-    margin-bottom: 125px;
+    margin-bottom: 123px;
+    column-gap: 60px;
 }
 
 .textarea {
@@ -45,6 +46,7 @@ body {
     padding: 20px 0 20px;
     border: 1px solid #8C8C8C;
     border-radius: 4px;
+    width: 925px;
 }
 
 .group-address {
@@ -76,4 +78,8 @@ body {
     font-size: 13px;
     line-height: 19px;
     padding-left: 50px;
+}
+
+.center-image {
+    display: flex;
 }
