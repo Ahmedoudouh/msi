@@ -16,7 +16,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0 45px 0;
 }
 
 .group-checbox-3 {
@@ -74,7 +73,7 @@ body {
     font-size: 13px;
     line-height: 27px;
     color: #000000;
-    padding: 15px 0 5px 0;
+    padding: 25px 0 5px 0;
 }
 
 .input-checkout-1 {
@@ -203,6 +202,7 @@ body {
     width: 446px;
     height: fit-content;
     padding: 20px 30px 30px;
+    margin: 40px 0 0 0;
 }
 
 .border-checkout-2 {
@@ -256,4 +256,25 @@ body {
 
 .border-2 {
     width: 924px;
+}
+
+.group-span {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 70px;
+    margin: 15px 0 20px 0;
+}
+
+.shipping {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.review {
+    padding: 0 25px 0 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
 }
