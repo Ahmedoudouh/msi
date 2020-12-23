@@ -473,6 +473,7 @@ body {
 
 .opacity {
     background: linear-gradient( #fcfcfcef, #fcfcfc9f, #fcfcfc52);
+    margin: 0 0px 0 25px;
 }
 
 .cta-more {

@@ -33,6 +33,14 @@ body {
     color: #666666;
 }
 
+.item-my-dashboard:hover {
+    border-left: 3px solid #0156FF;
+}
+
+.item-my-dashboard-solo:hover {
+    border-left: 3px solid #0156FF;
+}
+
 .border-my-dashboard {
     border: 1px solid #CCCCCC;
 }
@@ -85,6 +93,7 @@ body {
 
 .group-address-my-dashboard-2 {
     display: flex;
+    column-gap: 60px;
 }
 
 .group-edit {
@@ -96,8 +105,8 @@ body {
     font-size: 16px;
     line-height: 20px;
     color: #666666;
-    padding: 10px 0 35px 0;
-    width: 70%;
+    padding: 6px 0 35px 0;
+    width: 286px;
 }
 
 .group-edit-e {
