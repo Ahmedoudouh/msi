@@ -187,18 +187,17 @@ body {
     border-radius: 4px;
     font-size: 14px;
     line-height: 20px;
-    width: 386px;
-    height: 50px;
     padding-left: 15px;
+    padding: 15px;
+    width: 100%;
 }
 
 .input-shopping-cart-1 {
-    Width: 386px;
-    Height: 50px;
+    width: 100%;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     border-radius: 4px;
-    padding-left: 15px;
+    padding: 15px;
 }
 
 .input-shopping-cart {

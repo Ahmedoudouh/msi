@@ -352,9 +352,8 @@ body {
     background: transparent;
     border: 1px solid #CCCCCC;
     border-radius: 6px;
-    padding: 0 15px;
-    width: 347px;
-    height: 50px;
+    padding: 15px;
+    grid-column-gap: 180px;
     align-items: center;
     justify-content: space-between;
     font-weight: 500;

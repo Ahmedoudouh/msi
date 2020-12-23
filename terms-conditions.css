@@ -286,11 +286,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 45px;
+    padding: 45px 0 75px 0;
+    column-gap: 329px;
 }
 
 .group-titles {
-    margin-top: 45px;
+    flex: 1;
 }
 
 .title-footer {
@@ -301,7 +302,8 @@ body {
 }
 
 .input-button {
-    margin-top: 75px;
+    flex: 1;
+    display: flex;
 }
 
 .paragraph-footer-2 {
