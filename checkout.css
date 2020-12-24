@@ -65,7 +65,7 @@ body {
 
 .border-checkout {
     border: 1px solid #CCCCCC;
-    width: 567px;
+    width: 100%;
 }
 
 .email-address-checkout {
@@ -81,9 +81,8 @@ body {
     border: 1px solid #8C8C8C;
     box-sizing: border-box;
     border-radius: 4px;
-    width: 565px;
-    height: 50px;
-    padding: 0 0 0 10px;
+    width: 60%;
+    padding: 15px;
 }
 
 .star {
@@ -97,21 +96,17 @@ body {
     margin: 10px 0 20px 0;
 }
 
-.border-checkout {
-    border: 1px solid #CCCCCC;
-}
-
 .input-checkout-empty {
     margin-top: 10px;
 }
 
 .group-select-checkout {
-    width: 565px;
-    height: 50px;
+    width: 60%;
     border: 1px solid #8C8C8C;
     border-radius: 4px;
     font-size: 14px;
     line-height: 20px;
+    padding: 15px;
 }
 
 .box-border-checkout {
@@ -199,10 +194,10 @@ body {
 
 .box-checkout-2 {
     background: #F5F7FF;
-    width: 446px;
     height: fit-content;
     padding: 20px 30px 30px;
     margin: 40px 0 0 0;
+    width: 30%;
 }
 
 .border-checkout-2 {
@@ -250,14 +245,6 @@ body {
     margin-left: 5px;
 }
 
-.border-1 {
-    width: 924px;
-}
-
-.border-2 {
-    width: 924px;
-}
-
 .group-span {
     display: flex;
     justify-content: flex-end;
@@ -277,4 +264,18 @@ body {
     font-size: 16px;
     line-height: 20px;
     color: #828282;
+}
+
+.box-input {
+    flex: 1;
+}
+
+.border-checkout-3 {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+}
+
+.border-checkout-4 {
+    border: 1px solid #CCCCCC;
+    width: 60%;
 }
