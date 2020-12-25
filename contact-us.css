@@ -29,7 +29,7 @@ body {
 }
 
 .border-login {
-    width: 35%;
+    flex: 1;
     background: #F5F9FF;
     padding: 30px 80px 75px 35px;
     height: fit-content;
@@ -100,4 +100,8 @@ body {
 .login {
     display: flex;
     align-items: center;
+}
+
+.box-login {
+    flex: 3;
 }

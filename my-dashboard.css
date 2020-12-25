@@ -13,7 +13,6 @@ body {
 
 .background-list-my-dashboard {
     background: #F5F7FF;
-    width: 326px;
     list-style-type: none;
     padding: 20px 17px;
     display: grid;
@@ -47,10 +46,9 @@ body {
 
 .background-list-my-dashboard-2 {
     background: #F5F7FF;
-    width: 327px;
     list-style-type: none;
     margin: 7px 0 0 0;
-    padding: 15px 0;
+    padding: 15px 40px;
 }
 
 .title-small-my-dashboard-1 {
@@ -120,4 +118,12 @@ body {
     line-height: 20px;
     text-decoration-line: underline;
     color: #0156FF;
+}
+
+.box-my-dashboard-2 {
+    flex: 1;
+}
+
+.box-my-dashboard-3 {
+    flex: 3;
 }

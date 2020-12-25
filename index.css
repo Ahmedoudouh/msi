@@ -225,7 +225,6 @@ a:link {
     font-size: 12px;
     line-height: 18px;
     text-align: center;
-    width: 82%;
 }
 
 .date-2 {
@@ -259,9 +258,7 @@ a:link {
 }
 
 .border-paragraph-set-up {
-    border: 1px solid white;
-    width: 229px;
-    padding: 0 25px;
+    padding: 10px 25px 10px 25px;
 }
 
 .box-set-up-1 {
@@ -287,9 +284,15 @@ a:link {
     margin-top: 7px;
 }
 
-@media only screen and (max-width: 1200px) {
-    .box-pc-gamer {
-        display: flex;
-        flex-wrap: wrap;
-    }
+.box-set-up {
+    flex: 0;
+}
+
+.box-paragraph {
+    padding: 10px 25px 10px 25px;
+}
+
+.content-3 {
+    margin: auto 0;
+    max-width: 1000px;
 }
