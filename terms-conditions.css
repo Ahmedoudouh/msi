@@ -140,6 +140,7 @@ body {
 
 .box-text {
     margin: 20px 0 0 0;
+    flex: 1;
 }
 
 .transitions {
@@ -222,7 +223,6 @@ body {
 
 .border-group-items {
     background: #F5F9FF;
-    width: 327px;
     height: fit-content;
     padding: 25px;
     margin-top: 135px;
