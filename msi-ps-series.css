@@ -137,16 +137,11 @@ body {
 }
 
 .cta-filter {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #666666;
     border: 2px solid #666666;
-    border-radius: 50px;
     padding: 5px 58px;
     background: transparent;
     margin: 10px 0 30px 0;
-    cursor: pointer;
 }
 
 .cta-filter:hover {
@@ -206,15 +201,10 @@ body {
 }
 
 .cta-filter-2 {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #FFFFFF;
     border: none;
-    border-radius: 50px;
     padding: 7px 44px;
     background: #0156FF;
-    cursor: pointer;
 }
 
 .cta-filter-2:hover {
@@ -241,18 +231,6 @@ body {
 
 .cta-filter-3 {
     text-align: center;
-}
-
-.cta-filter-4 {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    color: #666666;
-    border: 2px solid #666666;
-    border-radius: 50px;
-    padding: 5px 58px;
-    background: transparent;
-    cursor: pointer;
 }
 
 .cta-filter-4:hover {
@@ -413,17 +391,12 @@ body {
 }
 
 .cta-shopping {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #0156FF;
     border: 2px solid #0156FF;
-    border-radius: 50px;
     background: transparent;
     display: flex;
     column-gap: 10px;
     padding: 6px 15px 0px 15px;
-    cursor: pointer;
 }
 
 .cta-shopping:hover {
@@ -467,20 +440,19 @@ body {
 .text-finale {
     font-size: 12px;
     Line-Height: 18px;
+    background: -webkit-linear-gradient(#c9c4c4, #f1f1f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .opacity {
     background: linear-gradient( #fcfcfcef, #fcfcfc9f, #fcfcfc52);
-    margin: 0 0px 0 25px;
+    margin: 0 0px 0 18px;
 }
 
 .cta-more {
-    Font-Size: 14px;
-    Line-Height: 21px;
-    Line-Height: 100%;
     color: #8C8C8C;
     background: transparent;
-    border-radius: 50px;
     border: 2px solid #8C8C8C;
     padding: 10px 25px;
 }
@@ -509,4 +481,8 @@ body {
 
 .margin {
     margin-top: 5px;
+}
+
+.sizing {
+    margin: 0;
 }

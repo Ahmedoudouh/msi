@@ -40,15 +40,11 @@ body {
 }
 
 .cta-checkout {
-    border: 2px solid #0156FF;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     text-align: center;
-    color: #0156FF;
     background-color: #FFFFFF;
     padding: 13px 65px;
+    border: 2px solid #0156FF;
+    color: #0156FF;
 }
 
 .cta-checkout:hover {
@@ -76,15 +72,6 @@ body {
     padding: 25px 0 5px 0;
 }
 
-.input-checkout-1 {
-    background: #FFFFFF;
-    border: 1px solid #8C8C8C;
-    box-sizing: border-box;
-    border-radius: 4px;
-    width: 60%;
-    padding: 15px;
-}
-
 .star {
     color: #F5661A;
 }
@@ -96,17 +83,13 @@ body {
     margin: 10px 0 20px 0;
 }
 
-.input-checkout-empty {
-    margin-top: 10px;
+.box-input {
+    display: grid;
+    row-gap: 10px;
 }
 
 .group-select-checkout {
     width: 60%;
-    border: 1px solid #8C8C8C;
-    border-radius: 4px;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 15px;
 }
 
 .box-border-checkout {
@@ -152,16 +135,11 @@ body {
 
 .cta-checkout-2 {
     background: #0156FF;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     text-align: center;
     color: #FFFFFF;
     padding: 13px 95px;
-    border: 0;
+    border: none;
     margin-top: 35px;
-    cursor: pointer;
 }
 
 .cta-checkout-2:hover {

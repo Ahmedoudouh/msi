@@ -50,29 +50,11 @@ body {
     color: #F5661A;
 }
 
-.input-emai-login {
-    background: #FFFFFF;
-    border: 1px solid #8C8C8C;
-    border-radius: 4px;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 15px;
-    color: #8C8C8C;
-    padding: 15px 0 15px 15px;
-    width: 100%;
-}
-
 .cta-login {
     background: #0156FF;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #FFFFFF;
     padding: 15px 55px;
     border: none;
-    cursor: pointer;
 }
 
 .paragraph-login {
@@ -99,14 +81,9 @@ body {
 
 .cta-login-Create {
     background: #0156FF;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #FFFFFF;
     border: none;
     padding: 15px 40px 15px 41px;
-    cursor: pointer;
 }
 
 .cta-login-Create:hover {

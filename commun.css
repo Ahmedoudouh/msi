@@ -113,21 +113,11 @@
         border-bottom: 3px solid #0156FF;
     }
     
-    .image-hover:hover {
-        border: 3px solid #C1DFFD;
-        border-radius: 50%;
-    }
-    
     .cta-header {
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 21px;
         color: #0156FF;
         border: 2px solid #0156FF;
-        border-radius: 50px;
         padding: 8px 25px;
         background: #ffffff;
-        cursor: pointer;
     }
     
     .cta-header:hover {
@@ -231,15 +221,10 @@
     
     .cta-footer {
         background: #0156FF;
-        border-radius: 50px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 21px;
         color: #FFFFFF;
-        border: 0;
+        border: none;
         padding: 15px 45px 14px 45px;
         margin-left: 25px;
-        cursor: pointer;
     }
     
     .cta-footer:hover {
@@ -345,10 +330,6 @@
         display: flex;
     }
     
-    .margin-bottom {
-        padding: 65px 0;
-    }
-    
     .box-small-x {
         display: flex;
         justify-content: flex-end;
@@ -388,15 +369,10 @@
     }
     
     .cta-x {
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 21px;
-        color: #0156FF;
-        border: 2px solid #0156FF;
-        border-radius: 50px;
         padding: 7px 35px;
         background: transparent;
-        cursor: pointer;
+        border: 2px solid #0156FF;
+        color: #0156FF;
     }
     
     .cta-x:hover {
@@ -468,25 +444,11 @@
     }
     
     .input-checkout-1 {
-        background: #FFFFFF;
-        border: 1px solid#CCCCCC;
-        box-sizing: border-box;
-        border-radius: 4px;
         width: 60%;
-        padding: 15px;
     }
     
     .input-emai-login {
-        background: #FFFFFF;
-        border: 1px solid #CCCCCC;
-        border-radius: 4px;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 20px;
-        padding: 15px;
         color: #8C8C8C;
-        padding: 15px 0 15px 15px;
-        outline: none;
         width: 100%;
     }
     
@@ -495,30 +457,21 @@
         box-shadow: 0px 0px 3px 2px #0168CE;
     }
     
+    .input-emai-login-2:focus {
+        border-color: #54A7FA;
+        box-shadow: 0px 0px 3px 2px #0168CE;
+    }
+    
     .input-emai-login-2 {
-        background: #FFFFFF;
-        border: 1px solid #CCCCCC;
-        border-radius: 4px;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 20px;
-        padding: 15px;
-        color: #8C8C8C;
-        padding: 15px 0 15px 15px;
-        outline: none;
-        width: 50%;
+        width: 100%;
     }
     
     .cta-login {
         background: #0156FF;
         border-radius: 50px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 21px;
         color: #FFFFFF;
         padding: 15px 55px;
         border: none;
-        cursor: pointer;
     }
     
     .cta-login:hover {
@@ -580,4 +533,27 @@
     
     .color-wihte:visited {
         color: #FFFFFF;
+    }
+    
+    .cta {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        border-radius: 50px;
+    }
+    
+    .input {
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        border-radius: 4px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 15px 0 15px 15px;
+        outline: none;
+    }
+    
+     ::placeholder {
+        color: #8C8C8C;
     }

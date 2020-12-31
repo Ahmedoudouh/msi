@@ -73,14 +73,9 @@ body {
 
 .cta-about-product {
     background: #0156FF;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #FFFFFF;
     border: none;
     padding: 15px 46px;
-    cursor: pointer;
 }
 
 .cta-about-product:hover {
@@ -93,10 +88,8 @@ body {
 
 .cta-about-product-paypal {
     background: #FFB800;
-    border-radius: 50px;
     border: none;
     padding: 15px 46px;
-    cursor: pointer;
 }
 
 .group-about-product-2 {

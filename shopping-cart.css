@@ -114,15 +114,10 @@ body {
 }
 
 .cta-shopping-cart-1 {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #666666;
     border: 2px solid #666666;
-    border-radius: 50px;
     padding: 5px 30px;
     background: transparent;
-    cursor: pointer;
 }
 
 .cta-shopping-cart-1:hover {
@@ -132,13 +127,9 @@ body {
 
 .cta-shopping-cart {
     background: #000000;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #FFFFFF;
     padding: 5px 30px;
-    cursor: pointer;
+    border: none;
 }
 
 .cta-shopping-cart:hover {
@@ -240,16 +231,10 @@ body {
 }
 
 .cta-shopping-cart-2 {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #0156FF;
     border: 2px solid #0156FF;
-    box-sizing: border-box;
-    border-radius: 50px;
     background: transparent;
     padding: 10px 0;
-    cursor: pointer;
     width: 100%;
 }
 
@@ -287,15 +272,10 @@ body {
 }
 
 .cta-shopping-cart-3 {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #FFFFFF;
-    border-radius: 50px;
     padding: 10px 0;
     background: #0156FF;
     border: none;
-    cursor: pointer;
     width: 100%;
 }
 
@@ -304,10 +284,6 @@ body {
 }
 
 .cta-shopping-cart-4 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
-    border-radius: 50px;
     padding: 10px 0px;
     background: #FFB800;
     color: #232C65;
@@ -316,7 +292,6 @@ body {
     align-items: center;
     grid-gap: 15px;
     border: none;
-    cursor: pointer;
     width: 100%;
 }
 
@@ -325,15 +300,11 @@ body {
 }
 
 .cta-shopping-cart-5 {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #666666;
-    border-radius: 50px;
     padding: 10px 0;
     border: 2px solid #8C8C8C;
-    cursor: pointer;
     width: 100%;
+    background: transparent;
 }
 
 .cta-shopping-cart-5:hover {
@@ -345,7 +316,7 @@ body {
 }
 
 .group-logo-zip {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 11px;
     line-height: 14px;
     display: flex;
@@ -364,4 +335,9 @@ body {
 .box-cta-shopping-cart {
     display: flex;
     grid-column-gap: 7px;
+}
+
+.learn-more {
+    text-decoration: underline;
+    font-weight: 400;
 }

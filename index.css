@@ -178,17 +178,6 @@ a:link {
     line-height: 140%;
 }
 
-.msi-series:hover {
-    border-bottom: 3px solid #0156FF;
-    border-radius: 5%;
-}
-
-.msi-series-2:hover {
-    color: #000000;
-    border-bottom: 3px solid #0156FF;
-    border-radius: 5%;
-}
-
 .msi-series-2 {
     color: #838383;
     font-weight: 700;

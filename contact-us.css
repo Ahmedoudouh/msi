@@ -13,8 +13,9 @@ body {
 }
 
 .group-input-login {
-    display: flex;
+    display: grid;
     grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .paragraph-login-2 {
@@ -47,6 +48,8 @@ body {
     border: 1px solid #8C8C8C;
     border-radius: 4px;
     width: 100%;
+    text-align: left;
+    padding: 20px 0 0 17px;
 }
 
 .group-address {
@@ -83,20 +86,6 @@ body {
     flex: 1;
 }
 
-.input-emai-login-2 {
-    background: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    border-radius: 4px;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 15px;
-    color: #8C8C8C;
-    padding: 15px 0 15px 15px;
-    outline: none;
-    width: 50%;
-}
-
 .login {
     display: flex;
     align-items: center;
@@ -104,4 +93,8 @@ body {
 
 .box-login {
     flex: 3;
+}
+
+.title-sizing {
+    margin-top: 12px;
 }
