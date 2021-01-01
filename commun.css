@@ -151,6 +151,7 @@
         display: flex;
         padding: 60px 0 45px 0;
         justify-content: center;
+        background: #F5F7FF;
     }
     
     .box-footer-1 {
@@ -440,7 +441,7 @@
         font-size: 13px;
         line-height: 210%;
         color: #000000;
-        margin: 15px 0 5px 0;
+        margin-bottom: 5px;
     }
     
     .input-checkout-1 {
