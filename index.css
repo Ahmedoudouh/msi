@@ -33,12 +33,12 @@ body {
 .arrow-right {
     position: absolute;
     right: 2px;
-    top: 135px;
+    top: 110px;
     cursor: pointer;
 }
 
 .new-products {
-    margin: 37px 0 15px 0;
+    margin: 37px 0 14px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +64,8 @@ a:link {
 
 .border-products {
     position: relative;
-    padding: 5px 25px 0;
+    padding: 7px 25px 0;
+    flex: 1;
 }
 
 .price-tablette {
@@ -92,6 +93,7 @@ a:link {
     display: flex;
     position: relative;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .icon-arrow-grey {
@@ -115,7 +117,7 @@ a:link {
 
 .box-logo {
     background: #F5F7FF;
-    margin: 25px 0 15px 0;
+    margin: 18px 0 14px 0;
 }
 
 .group-paragraph-logo {
@@ -126,24 +128,31 @@ a:link {
 }
 
 .paragrapg-logo {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 21px;
     color: #272560;
 }
 
 .own {
-    font-weight: 800;
+    font-Weight: 600;
+    font-Style: normal;
+    font-Size: 18px;
+    Line-height: 21.69px;
 }
 
 .learn-more {
-    font-weight: 400;
     text-decoration: underline;
     cursor: pointer;
+    font-Weight: 400;
+    font-Style: normal;
+    font-Size: 14px;
+    Line-height: 16px;
 }
 
 .box-products {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .relative {
@@ -157,8 +166,9 @@ a:link {
     line-height: 29px;
     color: #FFFFFF;
     text-align: center;
-    top: 135px;
-    right: 65px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .paragraph-see-products {
@@ -167,7 +177,7 @@ a:link {
     line-height: 15px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    top: 285px;
+    top: 308px;
     right: 63px;
     font-weight: 300;
 }
@@ -188,19 +198,23 @@ a:link {
 .group-msi-series {
     display: flex;
     margin: 35px 0 23px 0;
-    column-gap: 25px;
+    column-gap: 26px;
 }
 
 .logos {
     margin: 66px 0 78px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .box-pc-gamer {
     display: flex;
-    grid-gap: 6px;
     margin: 20px 0 30px 0;
+    flex-wrap: wrap;
+    column-gap: 6px;
+    row-gap: 20px;
 }
 
 .paragraph-follow {
@@ -250,12 +264,6 @@ a:link {
     padding: 10px 25px 10px 25px;
 }
 
-.box-set-up-1 {
-    display: flex;
-    column-gap: 5px;
-    margin-bottom: 57px;
-}
-
 .am {
     color: #FFFFFF;
     font-weight: 600;
@@ -270,7 +278,7 @@ a:link {
 .image-products {
     display: flex;
     justify-content: center;
-    margin-top: 7px;
+    margin: 7px 0 10px 0;
 }
 
 .box-set-up {
@@ -288,6 +296,31 @@ a:link {
 
 .group-box {
     display: flex;
-    padding: 60px 0 45px 0;
+    padding: 61px 0 45px 0;
     justify-content: center;
+}
+
+.logo-zip {
+    display: flex;
+}
+
+.sizing {
+    margin-top: 40px;
+}
+
+.box-spacing {
+    display: grid;
+    row-gap: 31px;
+}
+
+.image-pc-gamer {
+    display: flex;
+}
+
+@media only screen and (max-width: 1271px) {
+    .border-products {
+        position: relative;
+        padding: 7px 25px 0;
+        flex: 0;
+    }
 }

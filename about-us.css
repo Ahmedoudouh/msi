@@ -22,11 +22,11 @@ body {
 }
 
 .group-box-a {
-    grid-gap: 220px;
+    column-gap: 220px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 95px 0;
+    padding: 96px 0;
     align-items: center;
 }
 
@@ -47,17 +47,16 @@ body {
 
 .paragraph-about-us-2 {
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 18px;
     line-height: 26px;
 }
 
 .paragraph-about-us {
-    font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 18px;
     line-height: 26px;
-    margin: 30px 0;
+    margin: 32px 0;
 }
 
 .title-about-us-c {
@@ -81,8 +80,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    grid-gap: 90px;
-    padding: 60px 0;
+    grid-gap: 92px;
+    padding: 62px 0;
 }
 
 .group-loading {
@@ -105,17 +104,6 @@ body {
     border-radius: 50%;
 }
 
-.border-x {
-    background: #F5F7FF;
-    width: 69%;
-    color: #000000;
-    padding: 50px 120px 60px;
-}
-
-.border-x:hover {
-    border-radius: 20px;
-}
-
 .box-x-1 {
     display: flex;
 }
@@ -124,13 +112,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.paragraph-x {
-    font-size: 18px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
 }
 
 .cta-x:hover {
@@ -156,8 +137,4 @@ body {
 
 .logo-x {
     padding-right: 25px;
-}
-
-.color:visited {
-    color: #000000;
 }
