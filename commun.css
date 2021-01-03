@@ -181,7 +181,7 @@ body {
 .box-footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     padding: 47px 0 45px 0;
     flex-wrap: wrap;
 }
@@ -243,8 +243,8 @@ body {
 }
 
 .box-list-footer {
+    grid-template-columns: 1.1fr 1.5fr 1fr 1.5fr 2fr;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
     column-gap: 78px;
     margin-bottom: 36px;
 }
@@ -259,7 +259,6 @@ body {
 }
 
 .list-footer {
-    list-style-type: none;
     list-style-type: none;
     font-weight: 200;
     font-size: 14px;
@@ -493,11 +492,11 @@ body {
 }
 
 .email-address-checkout {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 13px;
     line-height: 27px;
     color: #000000;
-    padding: 15px 0 5px 0;
+    padding: 17px 0 5px 0;
 }
 
 .group-shopping-cart {
@@ -512,11 +511,9 @@ body {
 }
 
 .price {
-    font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    color: #000000;
-    margin-left: 10px;
+    color: #666666;
 }
 
 a:visited {
@@ -560,7 +557,7 @@ a:link {
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
-    padding: 15px 0 15px 15px;
+    padding: 15px 0 15px 17px;
     outline: none;
 }
 
@@ -570,7 +567,7 @@ a:link {
 
 .icons {
     display: flex;
-    column-gap: 12px;
+    column-gap: 6px;
     align-items: center;
 }
 
@@ -581,6 +578,7 @@ a:link {
 
 .icon {
     cursor: pointer;
+    display: flex;
 }
 
 .icon:hover {
